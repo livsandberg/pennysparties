@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+	<title></title>
+	
+  
+	<style type="text/css">
+
+		body{
+			width:100%;
+			/*width: 100%;
+  			height: 100vh;
+			
+  			background: linear-gradient(to right,white 0%,white 50%, pink 50%,pink 100%)*/
+
+		
+		} 
+		
+		
+
+		.header{
+			margin:0px;
+			width:100%;
+			height:150px;
+			background-color: white;
+			position: absolute;
+			top:0;
+			left:0;
+			display:inline;
+
+        }
+
+	    img{
+	      height:220px;
+	      width:220px;
+	      margin-left:42%;
+	      margin-top: -100px;
+	    }
+	        
+	    .header a {
+	      text-decoration: none;
+	      color:black;
+	      display:inline-flex;
+	      margin-top: 55px;
+	      margin-left: 40px;
+	      margin-right:-10px;
+	      font-family: 'Open Sans', sans-serif;
+
+	    }
+	    .header a:hover{
+    		text-decoration-line: underline;
+    		text-decoration-thickness: 2px;
+
+    	}
+
+
+	    .pic{
+	    width: 400px;
+	    height: 300px;
+
+	    background-repeat:no-repeat;
+	    background-size:cover;
+	    position: relataive;
+	    display: inline-block;
+	    margin-top: 300px;
+	    margin-right: 50px;
+	    }
+	    
+	    
+
+	   	.form p {
+	   		width:100%;
+	    	font-size: 40px;
+	    	color:#f86ca2;
+	    	
+	    	margin-left: 460px;
+	    	
+	    	font-family: 'Open Sans', sans-serif;
+
+	    	
+	    }
+
+		form {
+		 	width:500px; 
+		 	margin-left:150px;
+	    	margin-top: 200px;
+			
+			}
+
+		.feedback-input {
+		  color:black;
+		  font-family: Helvetica, Arial, sans-serif;
+		  font-size: 18px;
+		  border-radius: 5px;
+		  line-height: 20px;
+		  border:2px solid #f86ca2;
+		  padding: 8px;
+		  margin-bottom: 15px;
+		  width:100%;
+		
+		
+		}
+
+
+		textarea {
+		  height: 150px;
+		  line-height: 150%;
+		  resize:vertical;
+		}
+
+		[type="submit"] {
+		  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+		  width: 100%;
+		  background:#f86ca2;
+		  border-radius:5px;
+		  border:none;
+		  cursor:pointer;
+		  color:white;
+		  font-size:24px;
+		  padding-top:10px;
+		  padding-bottom:10px;
+		  margin-top:-4px;
+		  font-weight:700;
+		}
+
+		.pinkbox{
+			background: #f86ca2;
+			width:450px;
+			height:410px;
+			margin-top: -400px;
+			margin-left: 750px;
+		}
+		.textcontainer{
+			width:350px;
+			margin-left:50px;
+			margin-right:50px;
+			color:white;
+			font-family: 'Open Sans', sans-serif;
+
+		}
+		
+		.textcontainer a {
+			color:white;
+			font-size: 15px;
+
+			
+
+		}
+		
+		
+	 	.textcontainer h4{
+			margin-bottom: -1px;
+		}
+		#logo img{
+    		width:30px;
+
+    	}
+    	
+    	.social img {
+    		/*max-width:30px;*/
+    		width: 25px;
+    		height:auto;
+    		margin-top: 20px;
+    		margin-left: 50px;
+
+
+    	}
+
+	</style>
+
+</head>
+<body>
+	<div class = "header">
+		<a href="index.html">
+			<div class = "item">Services</div>
+		</a>
+		<a href="portfolio.html">
+			<div class = "item">Portfolio</div>
+		</a>
+		
+		<a href="contact.html">
+			<div class = "item">Contact</div>
+		</a>
+		<a href="about.html">
+			<div class = "item">About</div>
+		</a>
+		<a href="testimonials.html">
+      		<div class = "item">Testimonials</div>
+    	</a>
+	
+		<div class = "item"><img src="logo.png" alt="logo"></div>
+	</div>
+		
+	<div class = "form">
+		<form action="https://getform.io/f/0e75f556-9579-458a-9b27-589bb9166ee4" method="POST">	  
+		<!-- 	<p>Contact Us!</p> 	 -->
+			<input name="name" type="text" class="feedback-input" placeholder="Name" />   
+			<input name="phone" type="text" class="feedback-input" placeholder="Phone Number" />   
+			<input name="email" type="text" class="feedback-input" placeholder="Email" />
+			<textarea name="text" class="feedback-input" placeholder="Message"></textarea>
+			<input type="submit" value="SUBMIT"/>
+		</form>
+	</div>
+	<div class = "pinkbox">
+		<div class = "textcontainer">
+			<br><h1>Contact Us!</h1>
+			<a></a>
+		<p> If you have any questions or comments, please do not hesitate to reach out using the contact form. You can also reach us by email, messages, and phone.<p>
+
+		
+		<h4>Phone</br></h4>
+			<a id = "phone" href="tel:917-975-8114">(917)-975-8114</a>
+
+		<h4>Email</br></h4>
+			<a id = "mail" href = "mailto: parties.pb@gmail.com">parties.pb@gmail.com</a>
+
+		</div>
+		<a class = "social" id = "instagram" href="https://www.instagram.com/blaustern_fotografie/">
+ 			<img src="instagram.png">
+		</a>
+
+		
+
+	</div>
+	
+	
+
+  
+</body>
+</html>
